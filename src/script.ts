@@ -1,5 +1,4 @@
-type MathFunction = (n1: number, n2: number) => number; 
-
-const somar: MathFunction = (n1, n2) => {
-    return n1 + n2;
+type QualquerFuncao = () => void;
+const algo: QualquerFuncao = () => {
+    return 'bla bla';
 }
