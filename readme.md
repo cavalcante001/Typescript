@@ -11,4 +11,4 @@
 <p><b>tsc --init/</b></p>
 
 # documentação 
-<a href="https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html">Documentação<a>
+<a href="https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html" target="_BLANK">Documentação<a>
