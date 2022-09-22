@@ -1,27 +1,11 @@
-type Opcoes = {
-    width: number,
-    height: number
-}
-function configurar(props: Opcoes | 'auto') {
+function fazerRequisicao(url: string, method: 'GET' | 'POST') {
+
 }
 
-configurar({width: 200, height: 200});
-configurar('auto');
-configurar('automatico');
+type RequestDetails = {
+    url: string,
+    method: 'GET' | 'POST'
+}
 
-// function temNome(nome: string): true | false {
-//     if (nome !== '') {
-//         return true;
-//     } else {
-//         return false;
-//     }
-// }
-
-
-// function mostrarTexto(texto: string, alinhamento: 'left' | 'right' | 'center') {
-//     return `<div style="text-align: ${alinhamento}">${texto}</div>`;
-// }
-
-// mostrarTexto('Paulo', 'left');
-// mostrarTexto('Paulo', 'right');
-// mostrarTexto('Paulo', 'blabla');
+let req: RequestDetails = {url: 'https://google.com.br', method: 'GET'};
+fazerRequisicao(req.url, req.method);
