@@ -9,3 +9,6 @@
 <p><b>tsc -w src/script.ts --outDir public/</b></p>
 # tsconfig.json
 <p><b>tsc --init/</b></p>
+
+# documentação 
+<a href="https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html">Documentação<a>
