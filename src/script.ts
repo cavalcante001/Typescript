@@ -1,13 +1,10 @@
-function resumo(usuario: {nome: string, idade?: number}) {
-    if(usuario.idade !== undefined) {
-        return `Olá ${usuario.nome}, tudo bem? Você tem ${usuario.idade} anos`;
+function mostrarIdade(idade: string | number) {
+    if(typeof idade === 'string') {
+        console.log(idade.toUpperCase());
     } else {
-        return `Olá ${usuario.nome}, tudo bem?`;
+        console.log(idade);
     }
 }
 
-let usuario = {
-    nome: 'Paulo'
-};
-
-console.log(resumo(usuario));
+mostrarIdade(90);
+mostrarIdade('90');
