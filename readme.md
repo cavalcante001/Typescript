@@ -7,4 +7,5 @@
 
 # watchMode
 <p><b>tsc -w src/script.ts --outDir public/</b></p>
+# tsconfig.json
 <p><b>tsc --init/</b></p>
