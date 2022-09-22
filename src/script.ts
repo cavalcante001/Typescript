@@ -1,4 +1,1 @@
-type QualquerFuncao = () => void;
-const algo: QualquerFuncao = () => {
-    return 'bla bla';
-}
+const nome: string = 'Paulo';
